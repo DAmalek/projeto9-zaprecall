@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.game {
+    background-color: #FB6B6B;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 38px;
+    margin-right: 35px;
+}
+
+.header img {
+    margin: 0 15px;
+}
+
+.container {
+    height: 70%;
+    margin: 40px 40px;
+    background-color: #FB6B6B;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+.card {
+    width: 100%;
+    height: 65px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-family: "Recursive", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 14px 14px;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 20px;
+    height: 20px;
+}
+
+.back {
+    height: 130px;
+    background-color: #FFFFD4;
+    position: relative;
+    flex-direction: column;
+}
+
+.back img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.anwser-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85.17px;
+    height: 37.17px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 0 5px;
+}
+.wrong {
+    background-color: #ff3030;
+}
+.almost {
+    background-color: #FF922E;
+}
+.zap {
+    background-color: #2FBE34;
+}
+
+.anwser-container {
+    display: flex;
+
+}
+
+.card-title {
+    width: 100%;
+}
+
+.footer {
+    height: 90px;
+    width: 100vw;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.15);
+    font-family: 'Recursive', sans-serif;
+
+}
