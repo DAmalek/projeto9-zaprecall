@@ -107,3 +107,15 @@ const CardTitle = styled.div`
 const AnwserContainer = styled.div`
      display: flex;
 `
+
+const AnwserBox = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85.17px;
+    height: 37.17px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 0 5px;
+`
